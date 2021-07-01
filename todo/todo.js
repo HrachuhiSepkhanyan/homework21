@@ -15,6 +15,7 @@ for (i = 0; i < close.length; i++) {
         div.style.display = "none";
     }
 }
+
 const list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
     if (ev.target.tagName === 'LI') {
